@@ -1824,7 +1824,7 @@ html[data-a11y] .browser, html[data-a11y] .phone { translate: none; }
      Пусто — заявка открывается в WhatsApp у клиента.
      "send.php" — заявка сразу приходит вам в Telegram-бота
      (файл send.php должен лежать рядом с index.html на хостинге с PHP). */
-  var FORM_ENDPOINT = "";
+  var FORM_ENDPOINT = "https://script.google.com/macros/s/AKfycbxulyYFLW5M3g8QdHlM3lWtxZF0C7jkwZ6XpbTSmPxP0UxOM54SB_bWLn8kjZ2_d95waA/exec";
 
   var root = document.documentElement;
   var body = document.body;
@@ -2321,16 +2321,16 @@ html[data-a11y] .browser, html[data-a11y] .phone { translate: none; }
       var label = btn.innerHTML;
       btn.disabled = true;
       btn.textContent = "Отправляю…";
-      fetch(FORM_ENDPOINT, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name: name, phone: tel, task: task, website: form.elements.website.value, page: location.href })
-      })
-        .then(function (r) { return r.json(); })
-        .then(function (res) {
-          if (!res.ok) throw new Error("fail");
-          form.classList.add("sent");
-        })
+      var payload = JSON.stringify({ name: name, phone: tel, task: task, website: form.elements.website.value, page: location.href });
+      var isGoogle = FORM_ENDPOINT.indexOf("script.google.com") !== -1;
+      var req = isGoogle
+        // Google Apps Script: простой запрос без предпроверки, ответ не читается
+        ? fetch(FORM_ENDPOINT, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: payload })
+        : fetch(FORM_ENDPOINT, { method: "POST", headers: { "Content-Type": "application/json" }, body: payload })
+            .then(function (r) { return r.json(); })
+            .then(function (res) { if (!res.ok) throw new Error("fail"); });
+      req
+        .then(function () { form.classList.add("sent"); })
         .catch(viaWhatsApp)        // если сервер недоступен — запасной путь через WhatsApp
         .finally(function () { btn.disabled = false; btn.innerHTML = label; });
     });
