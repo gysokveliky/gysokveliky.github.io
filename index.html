@@ -3,14 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Верста — сайты для любого бизнеса</title>
+<title>Верста — сайты для бизнеса, которые приводят клиентов</title>
 <meta name="description" content="Создаю сайты для любых компаний: лендинги, сайты-визитки, многостраничные сайты, редизайн и поддержка. Работаю удалённо с любым городом.">
 <meta name="theme-color" content="#0b0b0d">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Верста — сайты для любого бизнеса">
-<meta property="og:description" content="Лендинги, сайты-визитки и многостраничные сайты для любых компаний. Удалённо, с любым городом.">
+<meta property="og:title" content="Верста — сайты для бизнеса, которые приводят клиентов">
+<meta property="og:description" content="Создаю сайты для любых компаний: лендинги, сайты-визитки, многостраничные сайты, редизайн и поддержка. Работаю удалённо с любым городом.">
 <meta property="og:locale" content="ru_RU">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='11' fill='%23c8ff3d'/%3E%3Cpath d='M13.5 29 L20.5 11 M20.5 29 L27.5 11' stroke='%230b0b0d' stroke-width='4.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="canonical" href="https://gysokveliky.github.io/">
+<meta property="og:url" content="https://gysokveliky.github.io/">
+<meta property="og:image" content="https://gysokveliky.github.io/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Верста">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="index, follow">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Верста — сайты для бизнеса","url":"https://gysokveliky.github.io/","image":"https://gysokveliky.github.io/og.jpg","description":"Создаю сайты для любых компаний: лендинги, сайты-визитки, многостраничные сайты, редизайн и поддержка. Работаю удалённо с любым городом.","email":"anddav0608@gmail.com","founder":{"@type":"Person","name":"Андрей"},"areaServed":"RU","priceRange":"₽₽","sameAs":["https://t.me/+79969369965"],"knowsAbout":["Лендинги","Сайты-визитки","Многостраничные сайты","Редизайн сайтов"]}
+</script>
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='11' fill='%23b8e05a'/%3E%3Cpath d='M13.5 29 L20.5 11 M20.5 29 L27.5 11' stroke='%230b0b0d' stroke-width='4.5' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
@@ -26,10 +38,10 @@
   --line: #26262c;
   --text: #f2f2f0;
   --muted: #8e8e96;
-  --accent: #c8ff3d;
+  --accent: #b8e05a;
   --accent-ink: #0b0b0d;
-  --accent-soft: rgba(200, 255, 61, .1);
-  --accent-glow: rgba(200, 255, 61, .55);
+  --accent-soft: rgba(184, 224, 90, .1);
+  --accent-glow: rgba(184, 224, 90, .55);
 
   --rail: 72px;                    /* ширина боковой панели */
   --radius: 22px;
@@ -71,7 +83,7 @@ body.sb-wide { --rail: 252px; }
 .brand:hover, :is(a, button):hover .brand {
   color: var(--accent);
   border-color: var(--accent);
-  box-shadow: 0 0 22px -2px var(--accent-glow), inset 0 0 14px rgba(200, 255, 61, .12);
+  box-shadow: 0 0 22px -2px var(--accent-glow), inset 0 0 14px rgba(184, 224, 90, .12);
 }
 .brand:hover::before, :is(a, button):hover .brand::before { filter: drop-shadow(0 0 5px var(--accent)); }
 :is(a, button):hover > .brand, :is(a, button):hover .d-left .brand { transform: scale(1.06) rotate(-4deg); }
@@ -266,7 +278,7 @@ body.overlay-on .overlay { opacity: 1; visibility: visible; }
 .panel::before {
   content: ""; position: absolute; width: 320px; height: 320px; border-radius: 50%;
   right: -160px; top: -160px; pointer-events: none;
-  background: radial-gradient(circle, rgba(200, 255, 61, .12), transparent 70%);
+  background: radial-gradient(circle, rgba(184, 224, 90, .12), transparent 70%);
 }
 body.panel-open .panel { opacity: 1; transform: none; visibility: visible; pointer-events: auto; }
 .panel-kicker { display: block; font-family: var(--font-head); font-size: .75rem; font-weight: 800; color: var(--accent); margin-bottom: 6px; letter-spacing: .02em; }
@@ -475,7 +487,7 @@ html[data-a11y] .a11y-panel { display: block; }
 }
 .hero-glow {
   position: absolute; width: 640px; height: 640px; border-radius: 50%;
-  background: radial-gradient(circle, rgba(200, 255, 61, .16), transparent 65%);
+  background: radial-gradient(circle, rgba(184, 224, 90, .16), transparent 65%);
   top: 10%; right: -10%; pointer-events: none;
   transition: transform 1.2s var(--ease);
 }
@@ -487,9 +499,9 @@ html[data-a11y] .a11y-panel { display: block; }
 }
 .hero-status i { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); animation: pulse 2s infinite; }
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(200, 255, 61, .7); }
-  70% { box-shadow: 0 0 0 10px rgba(200, 255, 61, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(200, 255, 61, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(184, 224, 90, .7); }
+  70% { box-shadow: 0 0 0 10px rgba(184, 224, 90, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(184, 224, 90, 0); }
 }
 .hero h1 { font-size: clamp(2.75rem, calc(5vw * var(--scale)), 5.25rem); margin-bottom: 30px; }
 .hero h1 .line { display: block; overflow: hidden; padding-bottom: .06em; }
@@ -691,7 +703,7 @@ html[data-a11y] .a11y-panel { display: block; }
 .cmp-good::after {
   content: ""; position: absolute; width: 300px; height: 300px; border-radius: 50%;
   right: -120px; top: -120px;
-  background: radial-gradient(circle, rgba(200, 255, 61, .14), transparent 70%);
+  background: radial-gradient(circle, rgba(184, 224, 90, .14), transparent 70%);
   pointer-events: none;
 }
 .cmp-good h3 i { background: var(--accent); color: var(--accent-ink); }
@@ -1005,7 +1017,7 @@ html[data-a11y] .legal-body a, html[data-a11y] .legal-link { text-decoration: un
 .spot::before {
   content: ""; position: absolute; inset: 0; border-radius: inherit;
   pointer-events: none; opacity: 0; transition: opacity .35s;
-  background: radial-gradient(380px circle at var(--mx, 50%) var(--my, 50%), rgba(200, 255, 61, .13), transparent 65%);
+  background: radial-gradient(380px circle at var(--mx, 50%) var(--my, 50%), rgba(184, 224, 90, .13), transparent 65%);
 }
 .spot:not(.cmp-card)::after {
   content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1px;
@@ -1038,7 +1050,7 @@ html[data-a11y] .legal-body a, html[data-a11y] .legal-link { text-decoration: un
 .hero::after {
   content: ""; position: absolute; z-index: 0; pointer-events: none;
   width: 420px; height: 420px; border-radius: 50%; left: -140px; bottom: -120px;
-  background: radial-gradient(circle, rgba(200, 255, 61, .09), transparent 70%);
+  background: radial-gradient(circle, rgba(184, 224, 90, .09), transparent 70%);
   animation: blobFloat 16s ease-in-out infinite alternate;
 }
 @keyframes blobFloat { to { transform: translate(180px, -90px) scale(1.25); } }
@@ -1198,10 +1210,238 @@ html[data-a11y] .browser, html[data-a11y] .phone { translate: none; }
   .hero .underline { background: none; -webkit-text-fill-color: currentColor; }
   .sb-nav .sb-item, .sb-bottom .sb-item { opacity: 1; }
 }
+
+/* =========================================================
+   NEW · стиль «Барбермен»: интро, сборка сайта, подсветка, док
+   ========================================================= */
+
+/* ---------- Интро-заставка ---------- */
+#intro{position:fixed;inset:0;z-index:9999;background:var(--accent);color:var(--bg);display:grid;place-items:center;cursor:pointer;transition:transform .9s cubic-bezier(.7,0,.2,1)}
+#intro.out{transform:translateY(-100%)}
+#intro[hidden]{display:none!important}
+#intro .ib{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;width:100%}
+#intro .w{overflow:hidden;display:block;font:800 clamp(1.6rem,7vw,6rem)/1.1 var(--font-head,"Unbounded"),sans-serif;text-transform:uppercase;letter-spacing:-.02em}
+#intro .w i{display:block;font-style:normal;padding:0 .25em}
+#intro .w.l{justify-self:end}#intro .w.r{justify-self:start}
+#intro .w.l i{transform:translateX(105%);animation:introW 1s .9s cubic-bezier(.2,.8,.2,1) forwards}
+#intro .w.r i{transform:translateX(-105%);animation:introW 1s .9s cubic-bezier(.2,.8,.2,1) forwards}
+#intro .mk{width:clamp(84px,15vw,170px);aspect-ratio:1;animation:introMk 1.4s cubic-bezier(.2,.75,.2,1) both}
+#intro .mk rect{fill:var(--bg)}#intro .mk path{stroke:var(--accent);stroke-width:4.5;stroke-linecap:round;fill:none}
+#intro small{position:absolute;bottom:28px;left:0;right:0;text-align:center;font:600 12px var(--font-body,"Manrope"),sans-serif;letter-spacing:.2em;text-transform:uppercase;opacity:0;animation:fade .6s 1.6s forwards}
+@keyframes introMk{from{opacity:0;transform:rotate(-540deg) scale(.2)}to{opacity:1;transform:none}}
+@keyframes introW{to{transform:none}}
+html.intro-on .hero *{animation-play-state:paused!important}
+html.intro-on body{overflow:hidden}
+
+/* ---------- Крупные заголовки разделов ---------- */
+main h2{text-transform:uppercase;letter-spacing:-.025em;line-height:1}
+main h2 .accent{color:var(--accent)}
+
+/* ---------- Карточки ниш: заливка акцентом снизу ---------- */
+.niche:not(.cta){background:linear-gradient(var(--accent),var(--accent)) left bottom/100% 0% no-repeat,var(--card);transition:background-size .45s var(--ease),border-color .3s,transform .35s var(--ease)}
+.niche:not(.cta):hover{background-size:100% 100%,auto;border-color:var(--accent)}
+.niche:not(.cta):hover h3,.niche:not(.cta):hover p,.niche:not(.cta):hover .n-num{color:var(--accent-ink)}
+html[data-a11y] .niche:not(.cta){background:var(--card)}
+html[data-a11y] .niche:not(.cta):hover h3,html[data-a11y] .niche:not(.cta):hover p{color:inherit}
+
+/* ---------- Сборка сайта при прокрутке (v2: спокойнее и ровнее) ---------- */
+.build{padding:0!important}
+.build-track{height:260vh;position:relative}
+.build-stage{position:sticky;top:0;height:100vh;height:100svh;display:flex;align-items:center}
+.build-grid{display:grid;grid-template-columns:minmax(260px,.75fr) 1.5fr;gap:clamp(28px,5vw,80px);align-items:center;width:100%}
+.build-side h2{margin-bottom:26px!important;font-size:clamp(1.9rem,3.8vw,3.2rem)!important;max-width:11ch}
+.bs-count{display:flex;align-items:baseline;gap:10px;margin-bottom:18px;font-family:var(--font-head)}
+.bs-count b{font-size:clamp(2.4rem,4.4vw,3.6rem);line-height:1;color:var(--accent);font-weight:800;min-width:2.2ch}
+.bs-count span{color:var(--muted);font-size:.95rem}
+.build-steps{list-style:none;margin:0;padding:0;position:relative;min-height:7.5em}
+.build-steps li{position:absolute;inset:0 0 auto 0;opacity:0;transform:translateY(12px);transition:opacity .45s var(--ease),transform .45s var(--ease);pointer-events:none}
+.build-steps li.on{opacity:1;transform:none;pointer-events:auto}
+.build-steps li b{display:block;font:600 clamp(1.15rem,1.8vw,1.4rem)/1.2 var(--font-head);margin-bottom:10px}
+.build-steps li small{display:block;color:var(--muted);font-size:1rem;line-height:1.55;max-width:34ch}
+.bs-bars{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:28px}
+.bs-bars i{height:3px;border-radius:2px;background:var(--line);position:relative;overflow:hidden}
+.bs-bars i::after{content:"";position:absolute;inset:0;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease)}
+.build-stage[data-step="1"] .bs-bars i:nth-child(-n+1)::after,
+.build-stage[data-step="2"] .bs-bars i:nth-child(-n+2)::after,
+.build-stage[data-step="3"] .bs-bars i:nth-child(-n+3)::after,
+.build-stage[data-step="4"] .bs-bars i:nth-child(-n+4)::after{transform:none}
+
+.scene{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 23%;gap:4%;align-items:end}
+.bw{border:1px solid var(--line);background:var(--bg-2);border-radius:14px;overflow:hidden;box-shadow:0 30px 80px -40px rgba(0,0,0,.7)}
+.bw-bar{height:34px;display:flex;align-items:center;gap:6px;padding:0 12px;border-bottom:1px solid var(--line)}
+.bw-bar>i{width:9px;height:9px;border-radius:50%;background:var(--line)}
+.bw-url{margin-left:10px;flex:1;min-width:0;white-space:nowrap;overflow:hidden;max-width:240px;height:20px;border-radius:99px;background:var(--bg);font-size:11px;color:var(--muted);display:flex;align-items:center;padding:0 10px}
+.bw-live{margin-left:auto;font-size:11px;color:var(--accent);display:flex;align-items:center;gap:6px;opacity:0;transition:opacity .5s}
+.bw-live::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.bw-in{padding:clamp(14px,2.4vw,26px);display:grid;gap:clamp(14px,2vw,22px)}
+
+/* базовое состояние — каркас пунктиром */
+.x{border:1px dashed rgba(255,255,255,.18);border-radius:8px;transition:border-color .5s,background-color .5s,color .5s,opacity .5s}
+.x-head{display:flex;align-items:center;gap:10px;padding:10px 12px}
+.x-logo{width:22px;height:22px;border-radius:6px;border:1px dashed rgba(255,255,255,.18);transition:background-color .5s,border-color .5s}
+.x-name{font:700 11px var(--font-head);letter-spacing:.06em;text-transform:uppercase;opacity:0;transition:opacity .5s}
+.x-menu{margin-left:auto;display:flex;gap:8px}
+.x-menu i{width:28px;height:5px;border-radius:3px;background:rgba(255,255,255,.08)}
+.x-main{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(12px,2vw,22px);align-items:stretch}
+.x-text{display:grid;gap:12px;align-content:start}
+.x-h{padding:10px 12px;font:800 clamp(1rem,2.4vw,2rem)/1 var(--font-head);text-transform:uppercase;letter-spacing:-.02em;color:transparent;min-height:2.4em}
+.x-h span{display:block}
+.x-p{padding:10px 12px;display:grid;gap:8px}
+.x-p i{height:6px;border-radius:3px;background:rgba(255,255,255,.08);transition:background-color .5s}
+.x-p i:last-child{width:70%}
+.x-btn{justify-self:start;padding:.85em 1.4em;font:800 clamp(.55rem,.9vw,.72rem) var(--font-head);letter-spacing:.08em;text-transform:uppercase;color:transparent}
+.x-img{aspect-ratio:5/4;width:100%;overflow:hidden;color:var(--accent);padding:0}
+.x-img svg{width:100%;height:100%;display:block;opacity:0;transition:opacity .6s}
+.x-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(8px,1.4vw,14px)}
+.x-card{padding:12px;display:grid;gap:7px;min-height:84px;align-content:start}
+.x-card b{width:45%;height:6px;border-radius:3px;background:rgba(255,255,255,.08)}
+.x-card i{height:5px;border-radius:3px;background:rgba(255,255,255,.06)}
+.x-card em{font-style:normal;font:700 11px var(--font-head);color:transparent;margin-top:4px;transition:color .5s}
+
+/* шаг 2 — дизайн */
+.build-stage[data-step="2"] .x,.build-stage[data-step="3"] .x,.build-stage[data-step="4"] .x{border-style:solid;border-color:var(--line);background-color:var(--bg)}
+.build-stage:is([data-step="2"],[data-step="3"],[data-step="4"]) .x-logo{background:var(--accent);border-color:var(--accent)}
+.build-stage:is([data-step="2"],[data-step="3"],[data-step="4"]) .x-name{opacity:1}
+.build-stage:is([data-step="2"],[data-step="3"],[data-step="4"]) .x-h{color:var(--text);border-color:transparent;background-color:transparent}
+.build-stage:is([data-step="2"],[data-step="3"],[data-step="4"]) .x-h span:last-child{color:var(--accent)}
+.build-stage:is([data-step="2"],[data-step="3"],[data-step="4"]) .x-img svg{opacity:1}
+.build-stage:is([data-step="2"],[data-step="3"],[data-step="4"]) .x-head{border-color:transparent;border-bottom-color:var(--line);border-radius:0;background-color:transparent}
+.build-stage:is([data-step="2"],[data-step="3"],[data-step="4"]) :is(.x-h,.x-head){padding-left:0;padding-right:0}
+.build-stage:is([data-step="3"],[data-step="4"]) .x-p{padding-left:0;padding-right:0}
+.x-h,.x-head,.x-p{transition:border-color .5s,background-color .5s,color .5s,opacity .5s,padding .5s}
+/* шаг 3 — тексты и заявка */
+.build-stage:is([data-step="3"],[data-step="4"]) .x-p{border-color:transparent;background-color:transparent}
+.build-stage:is([data-step="3"],[data-step="4"]) .x-p i{background:rgba(255,255,255,.22)}
+.build-stage:is([data-step="3"],[data-step="4"]) .x-btn{background-color:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.build-stage:is([data-step="3"],[data-step="4"]) .x-card b{background:var(--accent)}
+.build-stage:is([data-step="3"],[data-step="4"]) .x-card i{background:rgba(255,255,255,.18)}
+.build-stage:is([data-step="3"],[data-step="4"]) .x-card em{color:var(--text)}
+/* шаг 4 — телефон и запуск */
+.build-stage[data-step="4"] .bw-live{opacity:1}
+
+.ph{aspect-ratio:9/18;border:1px solid var(--line);border-radius:22px;background:var(--bg-2);padding:8px;opacity:0;transform:translateY(40px);transition:opacity .6s var(--ease),transform .6s var(--ease);box-shadow:0 30px 70px -30px rgba(0,0,0,.8)}
+.build-stage[data-step="4"] .ph{opacity:1;transform:none}
+.ph-scr{height:100%;border-radius:16px;background:var(--bg);padding:12% 9% 9%;display:flex;flex-direction:column;gap:7%;position:relative;overflow:hidden}
+.ph-head{display:flex;justify-content:space-between;align-items:center}
+.ph-head span{width:16%;aspect-ratio:1;border-radius:4px;background:var(--accent)}
+.ph-head i{width:22%;height:3px;border-radius:2px;background:var(--line);box-shadow:0 5px 0 var(--line)}
+.ph-img{aspect-ratio:5/4;border-radius:8px;background:#1d2016;position:relative;overflow:hidden}
+.ph-img::after{content:"";position:absolute;left:0;right:0;bottom:0;height:45%;background:var(--accent);opacity:.35;clip-path:polygon(0 60%,30% 20%,55% 55%,80% 25%,100% 50%,100% 100%,0 100%)}
+.ph-h{font:800 clamp(.5rem,.95vw,.75rem)/1.05 var(--font-head);text-transform:uppercase}
+.ph-h em{font-style:normal;color:var(--accent)}
+.ph-l{height:4px;border-radius:2px;background:rgba(255,255,255,.2)}
+.ph-l.s{width:65%}
+.ph-b{margin-top:auto;padding:9% 0;border-radius:6px;background:var(--accent);color:var(--accent-ink);font:800 clamp(.38rem,.65vw,.52rem) var(--font-head);text-transform:uppercase;letter-spacing:.06em;text-align:center}
+.ph-note{position:absolute;left:6%;right:6%;top:6%;display:flex;gap:8px;align-items:center;padding:8px;border-radius:10px;background:var(--bg-2);border:1px solid var(--line);opacity:0;transform:translateY(-14px);transition:opacity .45s .5s var(--ease),transform .45s .5s var(--ease)}
+.ph-note span{width:18px;height:18px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:10px;font-weight:800;flex:none}
+.ph-note b{display:block;font-size:clamp(.5rem,.8vw,.65rem);line-height:1.1}
+.ph-note small{display:block;font-size:clamp(.42rem,.65vw,.55rem);color:var(--muted)}
+.build-stage[data-step="4"] .ph-note{opacity:1;transform:none}
+
+@media (max-width:900px){
+  .build-track{height:240vh}
+  .build-grid{grid-template-columns:1fr;gap:20px}
+  .build-side h2{font-size:clamp(1.5rem,7vw,2.1rem)!important;margin-bottom:12px!important}
+  .bs-count{margin-bottom:8px}.bs-count b{font-size:2rem}
+  .build-steps{min-height:5.6em}
+  .build-steps li small{font-size:.92rem}
+  .bs-bars{margin-top:14px}
+  .scene{grid-template-columns:minmax(0,1fr) 31%;gap:3%}
+  .x-name{font-size:9px}
+  .x-menu{display:none}
+  .x-cards{display:none}
+  .label.build-label{display:none}
+}
+html[data-a11y] .build-track,.no-motion .build-track{height:auto}
+html[data-a11y] .build-stage,.no-motion .build-stage{position:relative;height:auto;padding:84px 0}
+html[data-a11y] .build-steps li,.no-motion .build-steps li{position:static;opacity:1;transform:none;margin-bottom:18px}
+html[data-a11y] .bs-count,.no-motion .bs-count{display:none}
+
+/* ---------- Нижняя панель связи на телефоне ---------- */
+.dock{display:none}
+@media (max-width:900px){
+  .dock{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;background:var(--bg);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
+  .dock>*{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;height:62px;border:0;border-right:1px solid var(--line);background:none;color:var(--text);font:600 11px var(--font-body,"Manrope"),sans-serif;cursor:pointer;text-decoration:none}
+  .dock>*:last-child{border-right:0}
+  .dock .brand{width:30px;height:30px;border-radius:9px;color:var(--text)}
+  .dock .brand::before{inset:20%}
+  .dock .d-req{background:var(--accent);color:var(--accent-ink,#0b0b0d)}
+  .dock .d-req svg{width:22px;height:22px}
+  body{padding-bottom:calc(62px + env(safe-area-inset-bottom,0px))}
+  .to-top{bottom:calc(76px + env(safe-area-inset-bottom,0px))!important}
+}
+html[data-a11y] .dock{display:none}
+
+/* =========================================================
+   NEW · спокойнее: без кислотных свечений и «нейро»-эффектов
+   ========================================================= */
+:root{--accent:#b8e05a;--accent-soft:rgba(184,224,90,.1);--accent-glow:transparent}
+html{background:var(--bg)}
+body{background:transparent}
+.bg-grid{position:fixed;inset:0;z-index:-1;pointer-events:none}
+.why{background:rgba(19,19,22,.78)}
+/* убираем светящиеся пятна и блики */
+.hero-glow,.hero::after,.hero::before,.panel::before,.cmp-good::after,.page-hero::before{display:none!important}
+.hero .underline{background:none;-webkit-text-fill-color:currentColor;color:var(--accent);animation:none}
+.btn-accent::after,.cta-box::before{display:none!important}
+.btn-accent:hover{box-shadow:none}
+.brand:hover,:is(a,button):hover .brand{box-shadow:none}
+.brand:hover::before,:is(a,button):hover .brand::before{filter:none}
+.spot::before{background:radial-gradient(320px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.045),transparent 70%)}
+.spot:not(.cmp-card)::after{background:radial-gradient(220px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.35),transparent 70%)}
+.toast .t-ico{box-shadow:none}
+
+/* ---------- NEW: многостраничность ---------- */
+.nav a.current,.sb-sections a.current{color:var(--text)}
+.nav a.current::after{content:"";position:absolute;left:50%;bottom:-8px;width:4px;height:4px;border-radius:50%;background:var(--accent);transform:translateX(-50%)}
+.sb-sections a.current{background:var(--card)}
+.page-hero{padding:170px 0 40px!important;position:relative;overflow:hidden}
+.page-hero::before{content:"";position:absolute;right:-10%;top:-30%;width:60vw;height:60vw;max-width:760px;max-height:760px;border-radius:50%;background:radial-gradient(circle,rgba(200,255,61,.12),transparent 65%);pointer-events:none}
+.crumbs{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:.875rem;color:var(--muted);margin-bottom:28px}
+.crumbs a{color:var(--muted);transition:color .25s}.crumbs a:hover{color:var(--accent)}
+.crumbs span[aria-current]{color:var(--text)}
+.page-hero h1{font:800 clamp(2.6rem,calc(9vw * var(--scale)),7.5rem)/.95 var(--font-head);text-transform:uppercase;letter-spacing:-.03em;margin:0}
+.page-hero h1 .ln{display:block;overflow:hidden;padding-bottom:.05em}
+.page-hero h1 .ln>span{display:inline-block;transform:translateY(105%);animation:rise 1s var(--ease) forwards}
+.page-hero h1 .ln:nth-child(2)>span{color:var(--accent);animation-delay:.12s}
+.page-hero .lead{max-width:58ch;margin-top:28px;color:var(--muted);font-size:clamp(1rem,1.6vw,1.2rem);line-height:1.6;opacity:0;animation:fade 1s .4s var(--ease) forwards}
+.page-hero + section{padding-top:60px}
+.next-page{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:28px;margin-top:10px}
+.next-page span{color:var(--muted);font-size:.875rem}
+.next-page a{font:800 clamp(1.1rem,2.6vw,1.8rem) var(--font-head);text-transform:uppercase;display:inline-flex;gap:14px;align-items:center;transition:color .25s}
+.next-page a:hover{color:var(--accent)}
+html[data-a11y] .page-hero h1 .ln>span,html[data-a11y] .page-hero .lead{transform:none;opacity:1;animation:none}
+@media (prefers-reduced-motion:reduce){.page-hero h1 .ln>span{transform:none;animation:none}.page-hero .lead{opacity:1;animation:none}}
+@media (max-width:900px){.page-hero{padding:120px 0 24px!important}}
 </style>
 </head>
 <body>
 
+<!-- ============ NEW: интро-заставка ============ -->
+<div id="intro" aria-hidden="true" hidden>
+  <div class="ib">
+    <span class="w l"><i>Вер</i></span>
+    <svg class="mk" viewBox="0 0 40 40"><rect width="40" height="40" rx="11"/><path d="M13.5 29 L20.5 11"/><path d="M20.5 29 L27.5 11"/></svg>
+    <span class="w r"><i>ста</i></span>
+  </div>
+  <small>сайты для бизнеса</small>
+</div>
+<script>
+(function(){
+  try{
+    var h=document.documentElement, rm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var seen=false; try{seen=sessionStorage.getItem('versta-intro')==='1'}catch(e){}
+    var a11y=false; try{a11y=!!localStorage.getItem('a11y')}catch(e){}
+    if(seen||rm||a11y||h.hasAttribute('data-a11y')) return;
+    var el=document.getElementById('intro'); el.hidden=false; h.classList.add('intro-on');
+    function done(){ if(el.classList.contains('out')) return; el.classList.add('out'); h.classList.remove('intro-on');
+      try{sessionStorage.setItem('versta-intro','1')}catch(e){}
+      setTimeout(function(){el.remove()},1000); }
+    el.addEventListener('click',done); setTimeout(done,2600);
+  }catch(e){}
+})();
+</script>
+<script>window.SITE_PAGES={"#hero": "index.html", "#marquee": "index.html", "#build": "index.html", "#niches": "index.html", "#compare": "index.html", "#cta-band": "index.html", "#services": "uslugi.html", "#quiz": "uslugi.html", "#about": "obo-mne.html", "#why": "obo-mne.html", "#process": "kak-rabotayu.html", "#faq": "voprosy.html", "#contact": "kontakty.html"};window.SITE_INDEX=[{"title": "От идеи до заявок", "snippet": "", "url": "index.html#build", "page": "index.html"}, {"title": "Сайты для любых компаний", "snippet": "", "url": "index.html#niches", "page": "index.html"}, {"title": "Салоны красоты", "snippet": "Услуги, цены, мастера и запись онлайн", "url": "index.html#niches", "page": "index.html"}, {"title": "Клиники", "snippet": "Врачи, направления и доверие с первого экрана", "url": "index.html#niches", "page": "index.html"}, {"title": "Детские центры", "snippet": "Программы, расписание и запись на пробное занятие", "url": "index.html#niches", "page": "index.html"}, {"title": "Автосервисы", "snippet": "Список работ, цены и быстрая заявка на ремонт", "url": "index.html#niches", "page": "index.html"}, {"title": "Кафе и рестораны", "snippet": "Меню, бронь столика, доставка и адрес", "url": "index.html#niches", "page": "index.html"}, {"title": "Строительство и ремонт", "snippet": "Примеры работ, этапы и заявка на расчёт", "url": "index.html#niches", "page": "index.html"}, {"title": "Юристы и бухгалтеры", "snippet": "Услуги, экспертность и запись на консультацию", "url": "index.html#niches", "page": "index.html"}, {"title": "Фитнес и спорт", "snippet": "Тренеры, абонементы и расписание занятий", "url": "index.html#niches", "page": "index.html"}, {"title": "Магазины", "snippet": "Ассортимент, наличие и связь с продавцом", "url": "index.html#niches", "page": "index.html"}, {"title": "Курсы и обучение", "snippet": "Программы, преподаватели и запись в группу", "url": "index.html#niches", "page": "index.html"}, {"title": "Сервисные компании", "snippet": "Клининг, доставка, ремонт техники и другие услуги", "url": "index.html#niches", "page": "index.html"}, {"title": "Ваш бизнес", "snippet": "Нет в списке? Расскажите — сделаю сайт и для вас", "url": "index.html#niches", "page": "index.html"}, {"title": "Что меняется, когда у бизнеса есть сайт", "snippet": "", "url": "index.html#compare", "page": "index.html"}, {"title": "✕ Без сайта", "snippet": "", "url": "index.html#compare", "page": "index.html"}, {"title": "✓ С сайтом", "snippet": "", "url": "index.html#compare", "page": "index.html"}, {"title": "Что могу сделать для вас", "snippet": "", "url": "uslugi.html", "page": "uslugi.html"}, {"title": "Лендинг", "snippet": "Одна страница под конкретную услугу или акцию. Ведёт посетителя к заявке без лишнего.", "url": "uslugi.html", "page": "uslugi.html"}, {"title": "Сайт-визитка", "snippet": "Кто вы, что предлагаете, где находитесь и как связаться. Быстрый старт для бизнеса без сайта.", "url": "uslugi.html", "page": "uslugi.html"}, {"title": "Многостраничный сайт", "snippet": "Отдельные страницы для услуг, специалистов, цен и филиалов. Для клиник, центров и сетей.", "url": "uslugi.html", "page": "uslugi.html"}, {"title": "Редизайн старого сайта", "snippet": "Обновлю устаревший сайт: современный вид, удобство на телефоне и понятный путь к заявке.", "url": "uslugi.html", "page": "uslugi.html"}, {"title": "Поддержка", "snippet": "Обновляю цены, тексты и фото, добавляю разделы и слежу, чтобы сайт работал без сбоев.", "url": "uslugi.html", "page": "uslugi.html"}, {"title": "В каждом сайте:", "snippet": "", "url": "uslugi.html", "page": "uslugi.html"}, {"title": "Какой сайт нужен вам?", "snippet": "", "url": "uslugi.html#quiz", "page": "uslugi.html"}, {"title": "Работать со мной просто", "snippet": "", "url": "obo-mne.html#why", "page": "obo-mne.html"}, {"title": "Быстро", "snippet": "Чёткие сроки на старте и без затягивания. Простой сайт можно запустить за считанные дни.", "url": "obo-mne.html#why", "page": "obo-mne.html"}, {"title": "Понятно", "snippet": "Объясняю простыми словами, без «фронтендов» и «бэкендов». Вы всегда знаете, что происходит.", "url": "obo-mne.html#why", "page": "obo-mne.html"}, {"title": "Адаптивно под телефоны", "snippet": "Большинство клиентов заходят со смартфона — сайт удобен на любом экране.", "url": "obo-mne.html#why", "page": "obo-mne.html"}, {"title": "Помощь после запуска", "snippet": "Не исчезаю после сдачи: отвечаю на вопросы, вношу правки и помогаю развивать сайт.", "url": "obo-mne.html#why", "page": "obo-mne.html"}, {"title": "Всё зафиксировано", "snippet": "Структура, сроки и стоимость согласуются письменно до начала работы — без сюрпризов.", "url": "obo-mne.html#why", "page": "obo-mne.html"}, {"title": "Любой город", "snippet": "Работаю удалённо: обсуждаем в мессенджере, результаты показываю по ссылке.", "url": "obo-mne.html#why", "page": "obo-mne.html"}, {"title": "Как я работаю", "snippet": "", "url": "kak-rabotayu.html", "page": "kak-rabotayu.html"}, {"title": "Заявка", "snippet": "Пишете в мессенджер или оставляете заявку на сайте. Отвечаю в тот же день.", "url": "kak-rabotayu.html", "page": "kak-rabotayu.html"}, {"title": "Обсуждение и ТЗ", "snippet": "Разбираемся в задаче, фиксируем структуру, сроки и стоимость — всё письменно.", "url": "kak-rabotayu.html", "page": "kak-rabotayu.html"}, {"title": "Дизайн и разработка", "snippet": "Показываю промежуточные результаты, вношу правки, собираю рабочую версию.", "url": "kak-rabotayu.html", "page": "kak-rabotayu.html"}, {"title": "Запуск", "snippet": "Подключаю домен, проверяю на всех устройствах и показываю, как всё устроено.", "url": "kak-rabotayu.html", "page": "kak-rabotayu.html"}, {"title": "Частые вопросы", "snippet": "", "url": "voprosy.html", "page": "voprosy.html"}, {"title": "Сколько стоит сайт?", "snippet": "Зависит от объёма: сколько страниц и разделов, нужны ли тексты. Точную стоимость называю после короткого обсуждения и фиксирую её в ТЗ до начала работы.", "url": "voprosy.html", "page": "voprosy.html"}, {"title": "Сколько времени займёт работа?", "snippet": "Лендинг или сайт-визитка делаются быстрее, многостраничный сайт — дольше. Конкретные сроки согласовываем на старте и придерживаемся их.", "url": "voprosy.html", "page": "voprosy.html"}, {"title": "Вы делаете сайты только для определённых сфер?", "snippet": "Нет, создаю сайты для любых компаний — от небольших мастерских и салонов до клиник, сервисных компаний и сетей.", "url": "voprosy.html", "page": "voprosy.html"}, {"title": "Что нужно от меня?", "snippet": "Рассказать о бизнесе и прислать то, что есть: логотип, фото, цены, контакты. Если текстов нет — помогу их составить.", "url": "voprosy.html", "page": "voprosy.html"}, {"title": "Я из другого города — это не проблема?", "snippet": "Нет. Вся работа идёт удалённо: обсуждаем в мессенджере или по видеосвязи, результаты показываю по ссылке.", "url": "voprosy.html", "page": "voprosy.html"}, {"title": "Кому будет принадлежать сайт и домен?", "snippet": "Вам. Помогу выбрать и подключить домен и хостинг, всё оформляется на вас.", "url": "voprosy.html", "page": "voprosy.html"}, {"title": "Что делать, если после запуска нужно что-то поменять?", "snippet": "Написать мне. Обновлю цены, фото или тексты, добавлю новые разделы — для этого есть услуга поддержки.", "url": "voprosy.html", "page": "voprosy.html"}, {"title": "Обсудим ваш проект?", "snippet": "", "url": "kontakty.html", "page": "kontakty.html"}, {"title": "Заявка на сайт", "snippet": "", "url": "kontakty.html", "page": "kontakty.html"}];</script>
 <a href="#main" class="skip-link">Перейти к содержимому</a>
 
 <!-- ============ БОКОВАЯ ПАНЕЛЬ ============ -->
@@ -1241,16 +1481,13 @@ html[data-a11y] .browser, html[data-a11y] .phone { translate: none; }
   </nav>
 
   <div class="sb-sections">
-    <p class="sb-caption">Разделы</p>
-    <a href="#niches">Для кого</a>
-    <a href="#about">Обо мне</a>
-    <a href="#services">Услуги</a>
-    <a href="#compare">Зачем сайт</a>
-    <a href="#quiz">Подбор сайта</a>
-    <a href="#process">Как я работаю</a>
-    <a href="#why">Почему я</a>
-    <a href="#faq">Вопросы</a>
-    <a href="#contact">Контакты</a>
+    <p class="sb-caption">Страницы</p>
+    <a href="index.html" class="current" aria-current="page">Главная</a>
+    <a href="uslugi.html">Услуги</a>
+    <a href="obo-mne.html">Обо мне</a>
+    <a href="kak-rabotayu.html">Как я работаю</a>
+    <a href="voprosy.html">Вопросы</a>
+    <a href="kontakty.html">Контакты</a>
   </div>
 
   <div class="sb-bottom">
@@ -1323,12 +1560,11 @@ html[data-a11y] .browser, html[data-a11y] .phone { translate: none; }
     </a>
 
     <nav class="nav" aria-label="Основное меню">
-      <a href="#niches">Для кого</a>
-      <a href="#services">Услуги</a>
-      <a href="#quiz">Подбор</a>
-      <a href="#process">Процесс</a>
-      <a href="#faq">Вопросы</a>
-      <a href="#contact">Контакты</a>
+      <a href="uslugi.html">Услуги</a>
+      <a href="obo-mne.html">Обо мне</a>
+      <a href="kak-rabotayu.html">Как я работаю</a>
+      <a href="voprosy.html">Вопросы</a>
+      <a href="kontakty.html">Контакты</a>
     </nav>
 
     <button class="icon-btn" data-action="a11y" aria-label="Версия для слабовидящих" title="Версия для слабовидящих">
@@ -1360,363 +1596,167 @@ html[data-a11y] .browser, html[data-a11y] .phone { translate: none; }
 </header>
 
 <main id="main">
-  <span id="top"></span>
-
-  <!-- ============ 1. ПЕРВЫЙ ЭКРАН ============ -->
-  <section class="hero">
-    <div class="hero-glow" id="glow"></div>
-    <div class="wrap hero-grid">
-      <div>
-        <div class="hero-status fade-in"><i></i>Принимаю новые проекты</div>
-        <h1>
-          <span class="line"><span>Делаю сайты,</span></span>
-          <span class="line"><span>которые приводят</span></span>
-          <span class="line"><span><span class="underline accent">клиентов<svg viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path d="M3 14 C 80 4, 200 4, 297 12"/></svg></span></span></span>
-        </h1>
-        <p class="hero-sub fade-in">Создаю сайты <b>для любых компаний</b> — от небольших мастерских и салонов до клиник, детских центров и сетей. Работаю удалённо с любым городом.</p>
-        <div class="hero-actions fade-in">
-          <a href="#contact" class="btn btn-accent">Обсудить проект <span class="arrow">→</span></a>
-          <button class="btn btn-ghost" data-panel="quiz">Подобрать тип сайта</button>
-        </div>
-      </div>
-
-      <!-- декоративный макет сайта -->
-      <div class="hero-visual" aria-hidden="true">
-        <div class="browser">
-          <div class="b-bar"><i></i><i></i><i></i><span class="b-url">ваш-бизнес.рф</span></div>
-          <div class="b-body">
-            <div class="sk-nav"><div class="sk" style="width:60px"></div><div class="links"><div class="sk" style="width:36px"></div><div class="sk" style="width:36px"></div><div class="sk" style="width:36px"></div></div></div>
-            <div class="sk sk-h"></div>
-            <div class="sk sk-h short"></div>
-            <div class="sk sk-p"></div>
-            <div class="sk sk-p" style="width:50%"></div>
-            <div class="sk-btn">Записаться</div>
-            <div class="sk-cards"><div class="sk"></div><div class="sk"></div><div class="sk"></div></div>
-          </div>
-        </div>
-        <div class="phone">
-          <div class="sk sk-img"></div>
-          <div class="sk sk-h"></div>
-          <div class="sk sk-p" style="width:90%"></div>
-          <div class="sk sk-p" style="width:60%"></div>
-          <div class="sk-btn">Оставить заявку</div>
-        </div>
-        <div class="toast t1"><span class="t-ico">✓</span><div><b>Новая заявка с сайта</b><small>Запись на услугу · только что</small></div></div>
-        <div class="toast t2"><span class="t-ico">+1</span><div><b>Новый клиент</b><small>Нашёл вас в поиске</small></div></div>
-      </div>
-    </div>
-  </section>
-
-  <div class="marquee" aria-hidden="true">
-    <div class="marquee-row"><div class="marquee-track">
-      <span>Салоны красоты</span><span>Клиники</span><span>Детские центры</span><span>Автосервисы</span><span>Кафе</span><span>Строительство</span><span>Юристы</span><span>Фитнес</span><span>Магазины</span><span>Курсы</span><span>Салоны красоты</span><span>Клиники</span><span>Детские центры</span><span>Автосервисы</span><span>Кафе</span><span>Строительство</span><span>Юристы</span><span>Фитнес</span><span>Магазины</span><span>Курсы</span>
-    </div></div>
-    <div class="marquee-row"><div class="marquee-track rev">
-      <span>Больше заявок</span><span>Больше звонков</span><span>Больше клиентов</span><span>Доверие с первого экрана</span><span>Запись онлайн</span><span>Понятный сайт</span><span>Удобно на телефоне</span><span>Больше заявок</span><span>Больше звонков</span><span>Больше клиентов</span><span>Доверие с первого экрана</span><span>Запись онлайн</span><span>Понятный сайт</span><span>Удобно на телефоне</span>
-    </div></div>
-  </div>
-
-  <!-- ============ 2. ДЛЯ КОГО ============ -->
-  <section id="niches">
-    <div class="wrap">
-      <div class="label reveal">Для кого</div>
-      <div class="section-head">
-        <h2 class="reveal">Сайты для любых компаний</h2>
-        <p class="reveal">Неважно, чем вы занимаетесь — у каждого бизнеса есть клиенты, которые ищут его в интернете. Вот лишь часть сфер:</p>
-      </div>
-      <div class="niches">
-        <div class="niche reveal"><span class="n-num">01</span><h3>Салоны красоты</h3><p>Услуги, цены, мастера и запись онлайн</p></div>
-        <div class="niche reveal"><span class="n-num">02</span><h3>Клиники</h3><p>Врачи, направления и доверие с первого экрана</p></div>
-        <div class="niche reveal"><span class="n-num">03</span><h3>Детские центры</h3><p>Программы, расписание и запись на пробное занятие</p></div>
-        <div class="niche reveal"><span class="n-num">04</span><h3>Автосервисы</h3><p>Список работ, цены и быстрая заявка на ремонт</p></div>
-        <div class="niche reveal"><span class="n-num">05</span><h3>Кафе и рестораны</h3><p>Меню, бронь столика, доставка и адрес</p></div>
-        <div class="niche reveal"><span class="n-num">06</span><h3>Строительство и ремонт</h3><p>Примеры работ, этапы и заявка на расчёт</p></div>
-        <div class="niche reveal"><span class="n-num">07</span><h3>Юристы и бухгалтеры</h3><p>Услуги, экспертность и запись на консультацию</p></div>
-        <div class="niche reveal"><span class="n-num">08</span><h3>Фитнес и спорт</h3><p>Тренеры, абонементы и расписание занятий</p></div>
-        <div class="niche reveal"><span class="n-num">09</span><h3>Магазины</h3><p>Ассортимент, наличие и связь с продавцом</p></div>
-        <div class="niche reveal"><span class="n-num">10</span><h3>Курсы и обучение</h3><p>Программы, преподаватели и запись в группу</p></div>
-        <div class="niche reveal"><span class="n-num">11</span><h3>Сервисные компании</h3><p>Клининг, доставка, ремонт техники и другие услуги</p></div>
-        <a href="#contact" class="niche cta reveal"><span class="n-num">12</span><h3>Ваш бизнес</h3><p>Нет в списке? Расскажите — сделаю сайт и для вас</p><span class="go">↗</span></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ 3. ОБО МНЕ ============ -->
-  <section id="about">
-    <div class="wrap">
-      <div class="label reveal">Обо мне</div>
-      <div class="about-grid">
-        <p class="about-text reveal">
-          Я Андрей — создаю сайты для компаний любого размера и сферы.
-          <span class="dim">Говорю без технического жаргона, сам веду проект от идеи до запуска и не пропадаю после оплаты.</span>
-          Вы занимаетесь бизнесом — сайт беру на себя.
-        </p>
-        <div class="facts reveal">
-          <div class="fact"><strong>Удалённо</strong><span>работаю с клиентами из любых городов</span></div>
-          <div class="fact"><strong>Лично</strong><span>общаетесь напрямую со мной, без менеджеров</span></div>
-          <div class="fact"><strong>На связи</strong><span>WhatsApp, Telegram, Max, почта</span></div>
-        </div>
-      </div>
-      <div class="stats">
-        <div class="stat reveal"><b><span data-count="24">24</span>/7</b><p>сайт принимает заявки, даже когда вы спите</p></div>
-        <div class="stat reveal"><b><span data-count="100">100</span>%</b><p>удобно на телефоне, планшете и компьютере</p></div>
-        <div class="stat reveal"><b><span data-count="1">1</span></b><p>человек отвечает за весь проект — я</p></div>
-        <div class="stat reveal"><b><span data-count="4">4</span></b><p>понятных шага от заявки до запуска</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ 4. УСЛУГИ ============ -->
-  <section id="services">
-    <div class="wrap">
-      <div class="label reveal">Услуги</div>
-      <h2 class="reveal">Что могу сделать для вас</h2>
-      <div class="services-grid">
-        <article class="service reveal">
-          <span class="num">01</span>
-          <h3>Лендинг</h3>
-          <p>Одна страница под конкретную услугу или акцию. Ведёт посетителя к заявке без лишнего.</p>
-          <ul><li>для рекламы</li><li>для акций</li><li>для одной услуги</li></ul>
-        </article>
-        <article class="service reveal">
-          <span class="num">02</span>
-          <h3>Сайт-визитка</h3>
-          <p>Кто вы, что предлагаете, где находитесь и как связаться. Быстрый старт для бизнеса без сайта.</p>
-          <ul><li>о компании</li><li>услуги</li><li>контакты</li></ul>
-        </article>
-        <article class="service reveal">
-          <span class="num">03</span>
-          <h3>Многостраничный сайт</h3>
-          <p>Отдельные страницы для услуг, специалистов, цен и филиалов. Для клиник, центров и сетей.</p>
-          <ul><li>каталог услуг</li><li>команда</li><li>филиалы</li></ul>
-        </article>
-        <article class="service reveal">
-          <span class="num">04</span>
-          <h3>Редизайн старого сайта</h3>
-          <p>Обновлю устаревший сайт: современный вид, удобство на телефоне и понятный путь к заявке.</p>
-          <ul><li>новый дизайн</li><li>адаптация под телефоны</li><li>понятная структура</li></ul>
-        </article>
-        <article class="service reveal">
-          <span class="num">05</span>
-          <h3>Поддержка</h3>
-          <p>Обновляю цены, тексты и фото, добавляю разделы и слежу, чтобы сайт работал без сбоев.</p>
-          <ul><li>правки</li><li>новые разделы</li><li>помощь по вопросам</li></ul>
-        </article>
-      </div>
-      <div class="included reveal">
-        <h3>В каждом сайте:</h3>
-        <div class="chips">
-          <span class="chip">Удобство на телефоне</span>
-          <span class="chip">Форма заявки</span>
-          <span class="chip">Кнопки мессенджеров</span>
-          <span class="chip">Карта и контакты</span>
-          <span class="chip">Базовая настройка для поиска</span>
-          <span class="chip">Подключение домена</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ 5. С САЙТОМ И БЕЗ ============ -->
-  <section id="compare" class="why">
-    <div class="wrap">
-      <div class="label reveal">Зачем сайт</div>
-      <h2 class="reveal">Что меняется, когда у бизнеса есть сайт</h2>
-      <div class="compare">
-        <div class="cmp-card cmp-bad reveal">
-          <h3><i>✕</i>Без сайта</h3>
-          <ul>
-            <li>Клиенты ищут вас в интернете — и находят конкурентов</li>
-            <li>Цены, адрес и график приходится снова и снова объяснять в переписке</li>
-            <li>Рекламе и соцсетям некуда вести человека</li>
-            <li>Бизнес выглядит менее надёжным, чем есть на самом деле</li>
-          </ul>
-        </div>
-        <div class="cmp-card cmp-good reveal">
-          <h3><i>✓</i>С сайтом</h3>
-          <ul>
-            <li>Клиенты сами находят вас и оставляют заявки</li>
-            <li>Услуги, цены и контакты всегда под рукой — в одной ссылке</li>
-            <li>Реклама и соцсети ведут на понятную страницу с кнопкой записи</li>
-            <li>Сайт принимает заявки круглосуточно, без выходных</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ 6. ПОДБОР САЙТА ============ -->
-  <section id="quiz">
-    <div class="wrap quiz-wrap">
-      <div>
-        <div class="label reveal">Подбор</div>
-        <h2 class="reveal">Какой сайт нужен вам?</h2>
-        <p class="lead reveal">Ответьте на три вопроса — подскажу, с какого формата лучше начать. Это займёт полминуты.</p>
-      </div>
-      <div class="quiz-card reveal" data-quiz></div>
-    </div>
-  </section>
-
-  <!-- ============ 7. КАК Я РАБОТАЮ ============ -->
-  <section id="process">
-    <div class="wrap">
-      <div class="label reveal">Процесс</div>
-      <h2 class="reveal">Как я работаю</h2>
-      <div class="steps">
-        <div class="step reveal"><div class="step-num">01</div><h3>Заявка</h3><p>Пишете в мессенджер или оставляете заявку на сайте. Отвечаю в тот же день.</p></div>
-        <div class="step reveal"><div class="step-num">02</div><h3>Обсуждение и ТЗ</h3><p>Разбираемся в задаче, фиксируем структуру, сроки и стоимость — всё письменно.</p></div>
-        <div class="step reveal"><div class="step-num">03</div><h3>Дизайн и разработка</h3><p>Показываю промежуточные результаты, вношу правки, собираю рабочую версию.</p></div>
-        <div class="step reveal"><div class="step-num">04</div><h3>Запуск</h3><p>Подключаю домен, проверяю на всех устройствах и показываю, как всё устроено.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ 8. ПОЧЕМУ Я ============ -->
-  <section class="why" id="why">
-    <div class="wrap">
-      <div class="label reveal">Почему я</div>
-      <h2 class="reveal">Работать со мной просто</h2>
-      <div class="why-grid reveal">
-        <div class="why-item">
-          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
-          <div><h3>Быстро</h3><p>Чёткие сроки на старте и без затягивания. Простой сайт можно запустить за считанные дни.</p></div>
-        </div>
-        <div class="why-item">
-          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
-          <div><h3>Понятно</h3><p>Объясняю простыми словами, без «фронтендов» и «бэкендов». Вы всегда знаете, что происходит.</p></div>
-        </div>
-        <div class="why-item">
-          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></div>
-          <div><h3>Адаптивно под телефоны</h3><p>Большинство клиентов заходят со смартфона — сайт удобен на любом экране.</p></div>
-        </div>
-        <div class="why-item">
-          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
-          <div><h3>Помощь после запуска</h3><p>Не исчезаю после сдачи: отвечаю на вопросы, вношу правки и помогаю развивать сайт.</p></div>
-        </div>
-        <div class="why-item">
-          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg></div>
-          <div><h3>Всё зафиксировано</h3><p>Структура, сроки и стоимость согласуются письменно до начала работы — без сюрпризов.</p></div>
-        </div>
-        <div class="why-item">
-          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></div>
-          <div><h3>Любой город</h3><p>Работаю удалённо: обсуждаем в мессенджере, результаты показываю по ссылке.</p></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ 9. ЧАСТЫЕ ВОПРОСЫ ============ -->
-  <section id="faq">
-    <div class="wrap">
-      <div class="faq-grid">
-        <div class="faq-side">
-          <div class="label reveal">Вопросы</div>
-          <h2 class="reveal">Частые вопросы</h2>
-          <p class="reveal">Не нашли ответ? Напишите — объясню всё лично.</p>
-          <button class="btn btn-ghost reveal" data-panel="request">Задать вопрос</button>
-        </div>
-        <div class="faq-list reveal">
-          <details class="faq-item">
-            <summary>Сколько стоит сайт?<span class="plus" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>Зависит от объёма: сколько страниц и разделов, нужны ли тексты. Точную стоимость называю после короткого обсуждения и фиксирую её в ТЗ до начала работы.</p></div>
-          </details>
-          <details class="faq-item">
-            <summary>Сколько времени займёт работа?<span class="plus" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>Лендинг или сайт-визитка делаются быстрее, многостраничный сайт — дольше. Конкретные сроки согласовываем на старте и придерживаемся их.</p></div>
-          </details>
-          <details class="faq-item">
-            <summary>Вы делаете сайты только для определённых сфер?<span class="plus" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>Нет, создаю сайты для любых компаний — от небольших мастерских и салонов до клиник, сервисных компаний и сетей.</p></div>
-          </details>
-          <details class="faq-item">
-            <summary>Что нужно от меня?<span class="plus" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>Рассказать о бизнесе и прислать то, что есть: логотип, фото, цены, контакты. Если текстов нет — помогу их составить.</p></div>
-          </details>
-          <details class="faq-item">
-            <summary>Я из другого города — это не проблема?<span class="plus" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>Нет. Вся работа идёт удалённо: обсуждаем в мессенджере или по видеосвязи, результаты показываю по ссылке.</p></div>
-          </details>
-          <details class="faq-item">
-            <summary>Кому будет принадлежать сайт и домен?<span class="plus" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>Вам. Помогу выбрать и подключить домен и хостинг, всё оформляется на вас.</p></div>
-          </details>
-          <details class="faq-item">
-            <summary>Что делать, если после запуска нужно что-то поменять?<span class="plus" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>Написать мне. Обновлю цены, фото или тексты, добавлю новые разделы — для этого есть услуга поддержки.</p></div>
-          </details>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ 10. ПРИЗЫВ ============ -->
-  <section class="cta-band">
-    <div class="wrap">
-      <div class="cta-box reveal">
-        <div>
-          <h2>Есть задача? Давайте обсудим</h2>
-          <p>Расскажите о своём бизнесе — предложу решение и назову стоимость. Ни к чему не обязывает.</p>
-        </div>
-        <button class="btn btn-dark" data-panel="request">Оставить заявку <span class="arrow">→</span></button>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ 11. КОНТАКТЫ ============ -->
-  <section class="contact" id="contact">
-    <div class="wrap">
-      <div class="contact-grid">
-        <div>
-          <div class="label reveal">Контакты</div>
-          <h2 class="reveal">Обсудим ваш <span class="accent">проект?</span></h2>
-          <p class="contact-lead reveal">Оставьте заявку или напишите туда, где вам удобнее — отвечу, задам пару вопросов и предложу решение.</p>
-          <div class="direct">
-            <a data-contact="whatsapp" target="_blank" rel="noopener" class="reveal"><span class="d-left"><span class="brand brand-wa"></span><span>WhatsApp<small>Написать в чат</small></span></span><span class="go" aria-hidden="true">↗</span></a>
-            <a data-contact="telegram" target="_blank" rel="noopener" class="reveal"><span class="d-left"><span class="brand brand-tg"></span><span>Telegram<small>Написать в чат</small></span></span><span class="go" aria-hidden="true">↗</span></a>
-            <a data-contact="max" target="_blank" rel="noopener" class="reveal"><span class="d-left"><span class="brand brand-max"></span><span>Max<small>Написать в чат</small></span></span><span class="go" aria-hidden="true">↗</span></a>
-            <a data-contact="email" class="reveal"><span class="d-left"><span class="brand brand-gmail"></span><span>Почта<small>Написать письмо</small></span></span><span class="go" aria-hidden="true">↗</span></a>
-          </div>
-          <p class="reply-note reveal"><i></i>Обычно отвечаю в течение дня</p>
-        </div>
-
-        <form class="form reveal" data-lead-form novalidate>
-          <div class="form-body">
-            <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-            <h3>Заявка на сайт</h3>
-            <p class="form-sub">Отвечу в течение дня</p>
-            <div class="field">
-              <label for="f-name">Ваше имя</label>
-              <input type="text" id="f-name" name="name" placeholder="Как к вам обращаться" autocomplete="name">
-              <span class="err">Напишите, как к вам обращаться</span>
-            </div>
-            <div class="field">
-              <label for="f-phone">Телефон</label>
-              <input type="tel" id="f-phone" name="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel">
-              <span class="err">Проверьте номер телефона</span>
-            </div>
-            <div class="field">
-              <label for="f-task">Опишите задачу</label>
-              <textarea id="f-task" name="task" placeholder="Например: нужен сайт для стоматологии, сейчас сайта нет"></textarea>
-            </div>
-            <div class="field consent">
-              <label for="f-consent">
-                <input type="checkbox" id="f-consent" name="consent">
-                <span>Даю <a href="#" class="legal-link" data-legal="consent">согласие на обработку персональных данных</a> и принимаю <a href="#" class="legal-link" data-legal="privacy">политику конфиденциальности</a></span>
-              </label>
-              <span class="err">Поставьте галочку, чтобы отправить заявку</span>
-            </div>
-            <button type="submit" class="btn btn-accent btn-block">Отправить заявку <span class="arrow">→</span></button>
-            <p class="form-note" data-note>Заявка откроется в WhatsApp — останется нажать «Отправить».</p>
-          </div>
-          <div class="form-success" role="status">
-            <div class="check">✓</div>
-            <h3>Спасибо!</h3>
-            <p data-success>Отправьте сообщение в WhatsApp, и я свяжусь с вами в ближайшее время.</p>
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
+<section class="hero">
+<div class="hero-glow" id="glow"></div>
+<div class="wrap hero-grid">
+<div>
+<div class="hero-status fade-in"><i></i>Принимаю новые проекты</div>
+<h1>
+<span class="line"><span>Делаю сайты,</span></span>
+<span class="line"><span>которые приводят</span></span>
+<span class="line"><span><span class="underline accent">клиентов<svg aria-hidden="true" preserveaspectratio="none" viewbox="0 0 300 20"><path d="M3 14 C 80 4, 200 4, 297 12"></path></svg></span></span></span>
+</h1>
+<p class="hero-sub fade-in">Создаю сайты <b>для любых компаний</b> — от небольших мастерских и салонов до клиник, детских центров и сетей. Работаю удалённо с любым городом.</p>
+<div class="hero-actions fade-in">
+<a class="btn btn-accent" href="kontakty.html">Обсудить проект <span class="arrow">→</span></a>
+<button class="btn btn-ghost" data-panel="quiz">Подобрать тип сайта</button>
+</div>
+</div>
+<!-- декоративный макет сайта -->
+<div aria-hidden="true" class="hero-visual">
+<div class="browser">
+<div class="b-bar"><i></i><i></i><i></i><span class="b-url">ваш-бизнес.рф</span></div>
+<div class="b-body">
+<div class="sk-nav"><div class="sk" style="width:60px"></div><div class="links"><div class="sk" style="width:36px"></div><div class="sk" style="width:36px"></div><div class="sk" style="width:36px"></div></div></div>
+<div class="sk sk-h"></div>
+<div class="sk sk-h short"></div>
+<div class="sk sk-p"></div>
+<div class="sk sk-p" style="width:50%"></div>
+<div class="sk-btn">Записаться</div>
+<div class="sk-cards"><div class="sk"></div><div class="sk"></div><div class="sk"></div></div>
+</div>
+</div>
+<div class="phone">
+<div class="sk sk-img"></div>
+<div class="sk sk-h"></div>
+<div class="sk sk-p" style="width:90%"></div>
+<div class="sk sk-p" style="width:60%"></div>
+<div class="sk-btn">Оставить заявку</div>
+</div>
+<div class="toast t1"><span class="t-ico">✓</span><div><b>Новая заявка с сайта</b><small>Запись на услугу · только что</small></div></div>
+<div class="toast t2"><span class="t-ico">+1</span><div><b>Новый клиент</b><small>Нашёл вас в поиске</small></div></div>
+</div>
+</div>
+</section>
+<div aria-hidden="true" class="marquee">
+<div class="marquee-row"><div class="marquee-track">
+<span>Салоны красоты</span><span>Клиники</span><span>Детские центры</span><span>Автосервисы</span><span>Кафе</span><span>Строительство</span><span>Юристы</span><span>Фитнес</span><span>Магазины</span><span>Курсы</span><span>Салоны красоты</span><span>Клиники</span><span>Детские центры</span><span>Автосервисы</span><span>Кафе</span><span>Строительство</span><span>Юристы</span><span>Фитнес</span><span>Магазины</span><span>Курсы</span>
+</div></div>
+<div class="marquee-row"><div class="marquee-track rev">
+<span>Больше заявок</span><span>Больше звонков</span><span>Больше клиентов</span><span>Доверие с первого экрана</span><span>Запись онлайн</span><span>Понятный сайт</span><span>Удобно на телефоне</span><span>Больше заявок</span><span>Больше звонков</span><span>Больше клиентов</span><span>Доверие с первого экрана</span><span>Запись онлайн</span><span>Понятный сайт</span><span>Удобно на телефоне</span>
+</div></div>
+</div>
+<section aria-labelledby="buildTitle" class="build" id="build">
+<div class="build-track" id="buildTrack">
+<div class="build-stage">
+<div class="wrap build-grid">
+<div class="build-side">
+<div class="label build-label">Как рождается сайт</div>
+<h2 id="buildTitle">От идеи до заявок</h2>
+<div aria-hidden="true" class="bs-count"><b id="bsNum">01</b><span>/ 04</span></div>
+<ol class="build-steps" id="buildSteps">
+<li data-n="01"><b>Структура</b><small>Продумываю, что видит клиент и куда он нажимает. Пока это только каркас.</small></li>
+<li data-n="02"><b>Дизайн</b><small>Цвета, шрифты и фото под ваш бизнес — без шаблонного вида.</small></li>
+<li data-n="03"><b>Тексты и заявка</b><small>Услуги, цены и кнопка записи на видном месте.</small></li>
+<li data-n="04"><b>Телефон и запуск</b><small>Сайт удобен на любом экране и начинает приводить заявки.</small></li>
+</ol>
+<div aria-hidden="true" class="bs-bars"><i></i><i></i><i></i><i></i></div>
+</div>
+<div aria-hidden="true" class="scene">
+<div class="bw">
+<div class="bw-bar"><i></i><i></i><i></i><span class="bw-url">ваш-бизнес.рф</span><span class="bw-live">онлайн</span></div>
+<div class="bw-in">
+<div class="x x-head"><span class="x-logo"></span><span class="x-name">Ваш бизнес</span><span class="x-menu"><i></i><i></i><i></i></span></div>
+<div class="x-main">
+<div class="x-text">
+<div class="x x-h"><span>Запись</span><span>онлайн</span></div>
+<div class="x x-p"><i></i><i></i></div>
+<div class="x x-btn">Записаться</div>
+</div>
+<div class="x x-img"><svg preserveaspectratio="xMidYMid slice" viewbox="0 0 100 80"><rect fill="#1d2016" height="80" width="100"></rect><circle cx="72" cy="22" fill="currentColor" opacity=".7" r="8"></circle><path d="M0 80 L0 56 L26 38 L44 52 L66 34 L100 58 L100 80Z" fill="currentColor" opacity=".28"></path><path d="M0 80 L0 66 L32 52 L56 64 L100 48 L100 80Z" fill="currentColor" opacity=".5"></path></svg></div>
+</div>
+<div class="x-cards">
+<div class="x x-card"><b></b><i></i><i></i><em>от 900 ₽</em></div>
+<div class="x x-card"><b></b><i></i><i></i><em>от 1 200 ₽</em></div>
+<div class="x x-card"><b></b><i></i><i></i><em>от 1 500 ₽</em></div>
+</div>
+</div>
+</div>
+<div class="ph">
+<div class="ph-scr">
+<div class="ph-head"><span></span><i></i></div>
+<div class="ph-img"></div>
+<div class="ph-h">Запись<br/><em>онлайн</em></div>
+<div class="ph-l"></div><div class="ph-l s"></div>
+<div class="ph-b">Записаться</div>
+<div class="ph-note"><span>✓</span><div><b>Новая заявка</b><small>только что</small></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="niches">
+<div class="wrap">
+<div class="label reveal">Для кого</div>
+<div class="section-head">
+<h2 class="reveal">Сайты для любых компаний</h2>
+<p class="reveal">Неважно, чем вы занимаетесь — у каждого бизнеса есть клиенты, которые ищут его в интернете. Вот лишь часть сфер:</p>
+</div>
+<div class="niches">
+<div class="niche reveal"><span class="n-num">01</span><h3>Салоны красоты</h3><p>Услуги, цены, мастера и запись онлайн</p></div>
+<div class="niche reveal"><span class="n-num">02</span><h3>Клиники</h3><p>Врачи, направления и доверие с первого экрана</p></div>
+<div class="niche reveal"><span class="n-num">03</span><h3>Детские центры</h3><p>Программы, расписание и запись на пробное занятие</p></div>
+<div class="niche reveal"><span class="n-num">04</span><h3>Автосервисы</h3><p>Список работ, цены и быстрая заявка на ремонт</p></div>
+<div class="niche reveal"><span class="n-num">05</span><h3>Кафе и рестораны</h3><p>Меню, бронь столика, доставка и адрес</p></div>
+<div class="niche reveal"><span class="n-num">06</span><h3>Строительство и ремонт</h3><p>Примеры работ, этапы и заявка на расчёт</p></div>
+<div class="niche reveal"><span class="n-num">07</span><h3>Юристы и бухгалтеры</h3><p>Услуги, экспертность и запись на консультацию</p></div>
+<div class="niche reveal"><span class="n-num">08</span><h3>Фитнес и спорт</h3><p>Тренеры, абонементы и расписание занятий</p></div>
+<div class="niche reveal"><span class="n-num">09</span><h3>Магазины</h3><p>Ассортимент, наличие и связь с продавцом</p></div>
+<div class="niche reveal"><span class="n-num">10</span><h3>Курсы и обучение</h3><p>Программы, преподаватели и запись в группу</p></div>
+<div class="niche reveal"><span class="n-num">11</span><h3>Сервисные компании</h3><p>Клининг, доставка, ремонт техники и другие услуги</p></div>
+<a class="niche cta reveal" href="kontakty.html"><span class="n-num">12</span><h3>Ваш бизнес</h3><p>Нет в списке? Расскажите — сделаю сайт и для вас</p><span class="go">↗</span></a>
+</div>
+</div>
+</section>
+<section class="why" id="compare">
+<div class="wrap">
+<div class="label reveal">Зачем сайт</div>
+<h2 class="reveal">Что меняется, когда у бизнеса есть сайт</h2>
+<div class="compare">
+<div class="cmp-card cmp-bad reveal">
+<h3><i>✕</i>Без сайта</h3>
+<ul>
+<li>Клиенты ищут вас в интернете — и находят конкурентов</li>
+<li>Цены, адрес и график приходится снова и снова объяснять в переписке</li>
+<li>Рекламе и соцсетям некуда вести человека</li>
+<li>Бизнес выглядит менее надёжным, чем есть на самом деле</li>
+</ul>
+</div>
+<div class="cmp-card cmp-good reveal">
+<h3><i>✓</i>С сайтом</h3>
+<ul>
+<li>Клиенты сами находят вас и оставляют заявки</li>
+<li>Услуги, цены и контакты всегда под рукой — в одной ссылке</li>
+<li>Реклама и соцсети ведут на понятную страницу с кнопкой записи</li>
+<li>Сайт принимает заявки круглосуточно, без выходных</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="cta-band">
+<div class="wrap">
+<div class="cta-box reveal">
+<div>
+<h2>Есть задача? Давайте обсудим</h2>
+<p>Расскажите о своём бизнесе — предложу решение и назову стоимость. Ни к чему не обязывает.</p>
+</div>
+<button class="btn btn-dark" data-panel="request">Оставить заявку <span class="arrow">→</span></button>
+</div>
+</div>
+</section>
 </main>
 
 <!-- ============ ПОДВАЛ ============ -->
@@ -1733,19 +1773,20 @@ html[data-a11y] .browser, html[data-a11y] .phone { translate: none; }
       </div>
       <div class="f-col">
         <h4>Навигация</h4>
-        <a href="#niches">Для кого</a>
-        <a href="#about">Обо мне</a>
-        <a href="#process">Как я работаю</a>
-        <a href="#why">Почему я</a>
-        <a href="#faq">Вопросы</a>
+        <a href="index.html">Главная</a>
+        <a href="uslugi.html">Услуги</a>
+        <a href="obo-mne.html">Обо мне</a>
+        <a href="kak-rabotayu.html">Как я работаю</a>
+        <a href="voprosy.html">Вопросы</a>
+        <a href="kontakty.html">Контакты</a>
       </div>
       <div class="f-col">
         <h4>Услуги</h4>
-        <a href="#services">Лендинг</a>
-        <a href="#services">Сайт-визитка</a>
-        <a href="#services">Многостраничный сайт</a>
-        <a href="#services">Редизайн</a>
-        <a href="#services">Поддержка</a>
+        <a href="uslugi.html">Лендинг</a>
+        <a href="uslugi.html">Сайт-визитка</a>
+        <a href="uslugi.html">Многостраничный сайт</a>
+        <a href="uslugi.html">Редизайн</a>
+        <a href="uslugi.html">Поддержка</a>
       </div>
       <div class="f-col">
         <h4>Связаться</h4>
@@ -1768,6 +1809,14 @@ html[data-a11y] .browser, html[data-a11y] .phone { translate: none; }
   </div>
 </footer>
 </div><!-- /.page -->
+
+<!-- ============ NEW: нижняя панель связи (телефон) ============ -->
+<nav class="dock" aria-label="Быстрая связь">
+  <a data-contact="whatsapp" target="_blank" rel="noopener"><span class="brand brand-wa"></span>WhatsApp</a>
+  <a data-contact="telegram" target="_blank" rel="noopener"><span class="brand brand-tg"></span>Telegram</a>
+  <a data-contact="max" target="_blank" rel="noopener"><span class="brand brand-max"></span>Max</a>
+  <button class="d-req" type="button" data-panel="request"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Заявка</button>
+</nav>
 
 <button class="to-top" id="toTop" aria-label="Наверх">
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
@@ -1980,7 +2029,7 @@ html[data-a11y] .browser, html[data-a11y] .phone { translate: none; }
 
   function goTo(target) {
     var el = typeof target === "string" ? document.querySelector(target) : target;
-    if (!el) return;
+    if (!el) { if (typeof target === "string" && window.SITE_PAGES && SITE_PAGES[target]) location.href = SITE_PAGES[target] + (SITE_PAGES[target] === "index.html" ? target : ""); return; }
     var details = el.closest("details");
     if (details) details.open = true;
     el.scrollIntoView({ behavior: isA11y() ? "auto" : "smooth", block: "center" });
@@ -2168,6 +2217,8 @@ html[data-a11y] .browser, html[data-a11y] .phone { translate: none; }
       var title = h.textContent.trim();
       items.push({ title: title, snippet: p && box !== h ? p.textContent.trim() : "", el: box });
     });
+    var here = (location.pathname.split("/").pop() || "index.html");
+    (window.SITE_INDEX || []).forEach(function (it) { if (it.page !== here) items.push({ title: it.title, snippet: it.snippet, url: it.url }); });
     return items;
   }
 
@@ -2197,7 +2248,7 @@ html[data-a11y] .browser, html[data-a11y] .phone { translate: none; }
         b.innerHTML = "<span><b></b><small></small></span>";
         b.querySelector("b").textContent = it.title;
         b.querySelector("small").textContent = it.snippet.length > 90 ? it.snippet.slice(0, 90) + "…" : it.snippet;
-        b.addEventListener("click", function () { closeAll(); goTo(it.el); });
+        b.addEventListener("click", function () { if (it.url) { location.href = it.url; return; } closeAll(); goTo(it.el); });
         results.appendChild(b);
       });
     }
@@ -2388,7 +2439,7 @@ html[data-a11y] .browser, html[data-a11y] .phone { translate: none; }
   /* ---------- Световое пятно за курсором ---------- */
   var glow = document.getElementById("glow");
   if (window.matchMedia("(pointer: fine)").matches) {
-    document.querySelector(".hero").addEventListener("mousemove", function (e) {
+    (document.querySelector(".hero") || document.createElement("div")).addEventListener("mousemove", function (e) {
       var x = (e.clientX / window.innerWidth - 0.5) * 120;
       var y = (e.clientY / window.innerHeight - 0.5) * 120;
       glow.style.transform = "translate(" + x + "px," + y + "px)";
@@ -2514,6 +2565,107 @@ html[data-a11y] .browser, html[data-a11y] .phone { translate: none; }
   document.querySelectorAll("main [data-lead-form]").forEach(bindForm);
 
   document.getElementById("year").textContent = new Date().getFullYear();
+})();
+</script>
+
+<script>
+/* ============ NEW: шаги сборки сайта + живой фон ============ */
+(function () {
+  var root = document.documentElement;
+  var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var noMotion = function () { return root.hasAttribute("data-a11y") || reduce; };
+
+  document.querySelectorAll(".service, .step, .stat, .fact").forEach(function (el) { el.classList.add("spot"); });
+
+  /* ---------- шаги «От идеи до заявок» ---------- */
+  var track = document.getElementById("buildTrack");
+  if (track) {
+    var stage = track.querySelector(".build-stage");
+    var steps = [].slice.call(document.querySelectorAll("#buildSteps li"));
+    var num = document.getElementById("bsNum");
+    var last = 0;
+    var update = function () {
+      if (noMotion()) {
+        track.parentNode.classList.add("no-motion");
+        stage.setAttribute("data-step", "4");
+        steps.forEach(function (li) { li.classList.add("on"); });
+        return;
+      }
+      track.parentNode.classList.remove("no-motion");
+      var r = track.getBoundingClientRect();
+      var total = r.height - innerHeight;
+      var p = total > 0 ? Math.min(1, Math.max(0, -r.top / total)) : 1;
+      var step = Math.min(4, Math.floor(p * 4) + 1);
+      if (step === last) return;
+      last = step;
+      stage.setAttribute("data-step", String(step));
+      steps.forEach(function (li, i) { li.classList.toggle("on", i === step - 1); });
+      if (num) num.textContent = "0" + step;
+    };
+    var tick = false;
+    addEventListener("scroll", function () { if (!tick) { tick = true; requestAnimationFrame(function () { tick = false; update(); }); } }, { passive: true });
+    addEventListener("resize", update);
+    new MutationObserver(function () { last = 0; update(); }).observe(root, { attributes: true, attributeFilter: ["data-a11y"] });
+    update();
+  }
+
+  /* ---------- живой фон: сетка верстальщика ---------- */
+  var cv = document.createElement("canvas");
+  cv.className = "bg-grid"; cv.setAttribute("aria-hidden", "true");
+  document.body.insertBefore(cv, document.body.firstChild);
+  var ctx = cv.getContext("2d");
+  var W, H, dpr, step = 46, mx = -9999, my = -9999, t0 = performance.now(), lastFrame = 0, running = true;
+  function size() {
+    dpr = Math.min(2, window.devicePixelRatio || 1);
+    W = innerWidth; H = innerHeight;
+    cv.width = W * dpr; cv.height = H * dpr;
+    cv.style.width = W + "px"; cv.style.height = H + "px";
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    step = W < 700 ? 38 : 46;
+  }
+  function accentRGB() {
+    var c = getComputedStyle(root).getPropertyValue("--accent").trim() || "#b8e05a";
+    if (c[0] === "#" && c.length === 7) return [parseInt(c.substr(1, 2), 16), parseInt(c.substr(3, 2), 16), parseInt(c.substr(5, 2), 16)];
+    return [184, 224, 90];
+  }
+  var acc = accentRGB();
+  function draw(now) {
+    if (!running) return;
+    requestAnimationFrame(draw);
+    if (now - lastFrame < 33) return;      // ~30 кадров в секунду хватает
+    lastFrame = now;
+    var t = (now - t0) / 1000;
+    ctx.clearRect(0, 0, W, H);
+    var oy = (scrollY * 0.15) % step;      // сетка чуть отстаёт от прокрутки — глубина
+    for (var y = -step; y < H + step; y += step) {
+      for (var x = 0; x < W + step; x += step) {
+        var yy = y - oy;
+        // медленная «волна», идущая по диагонали
+        var w = Math.sin(x * 0.006 + yy * 0.004 - t * 0.6) * 0.5 + 0.5;
+        var a = 0.05 + w * w * 0.12;
+        var dx = x - mx, dy = yy - my, d = Math.sqrt(dx * dx + dy * dy);
+        var near = d < 170 ? 1 - d / 170 : 0;
+        var s = 2.2 + near * 3;
+        if (near > 0) {
+          ctx.strokeStyle = "rgba(" + acc[0] + "," + acc[1] + "," + acc[2] + "," + (0.12 + near * 0.5).toFixed(3) + ")";
+        } else {
+          ctx.strokeStyle = "rgba(255,255,255," + a.toFixed(3) + ")";
+        }
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(x - s, yy); ctx.lineTo(x + s, yy);
+        ctx.moveTo(x, yy - s); ctx.lineTo(x, yy + s);
+        ctx.stroke();
+      }
+    }
+  }
+  function start() { if (noMotion()) { cv.style.display = "none"; running = false; return; } cv.style.display = ""; if (!running) { running = true; requestAnimationFrame(draw); } }
+  size(); addEventListener("resize", size);
+  addEventListener("pointermove", function (e) { if (e.pointerType !== "touch") { mx = e.clientX; my = e.clientY; } }, { passive: true });
+  document.addEventListener("pointerleave", function () { mx = my = -9999; });
+  document.addEventListener("visibilitychange", function () { running = !document.hidden && !noMotion(); if (running) requestAnimationFrame(draw); });
+  new MutationObserver(function () { acc = accentRGB(); start(); }).observe(root, { attributes: true, attributeFilter: ["data-a11y", "data-theme"] });
+  running = false; start();
 })();
 </script>
 </body>

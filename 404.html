@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Страница не найдена — Верста</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0b0b0d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='11' fill='%23b8e05a'/%3E%3Cpath d='M13.5 29 L20.5 11 M20.5 29 L27.5 11' stroke='%230b0b0d' stroke-width='4.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@800&family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0b0d;--line:#26262c;--text:#f2f2f0;--muted:#8e8e96;--accent:#b8e05a}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;min-height:100svh;background:var(--bg);color:var(--text);font:500 16px/1.5 Manrope,system-ui,sans-serif;display:grid;place-items:center;padding:24px;overflow:hidden}
+.w{text-align:center;max-width:640px}
+.n{font:800 clamp(6rem,28vw,15rem)/.9 Unbounded,system-ui,sans-serif;letter-spacing:-.04em;display:flex;justify-content:center}
+.n span{display:inline-block;animation:drop .9s cubic-bezier(.34,1.56,.64,1) both}
+.n span:nth-child(2){color:var(--accent);animation-delay:.12s}.n span:nth-child(3){animation-delay:.24s}
+h1{font:800 clamp(1.1rem,3.6vw,1.8rem)/1.15 Unbounded,system-ui,sans-serif;text-transform:uppercase;margin:24px 0 12px}
+p{color:var(--muted);margin:0 0 32px}
+a{display:inline-flex;gap:10px;align-items:center;background:var(--accent);color:var(--bg);font:800 13px Unbounded,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em;padding:18px 26px;border-radius:14px;text-decoration:none;transition:transform .25s}
+a:hover{transform:translateY(-3px)}
+.g{position:fixed;inset:0;z-index:-1;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:60px 60px;opacity:.35;mask-image:radial-gradient(circle at center,#000,transparent 70%)}
+@keyframes drop{from{opacity:0;transform:translateY(-60%) rotate(-8deg)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.n span{animation:none}}
+</style>
+</head>
+<body>
+<div class="g" aria-hidden="true"></div>
+<main class="w">
+  <div class="n" aria-hidden="true"><span>4</span><span>0</span><span>4</span></div>
+  <h1>Такой страницы нет</h1>
+  <p>Возможно, ссылка устарела или в адресе опечатка. Зато на главной есть всё про сайты для вашего бизнеса.</p>
+  <a href="/">На главную →</a>
+</main>
+</body>
+</html>
